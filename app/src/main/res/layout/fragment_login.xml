@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.fragment.ui.auth.LoginFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/album_dp_50"
+        android:layout_height="@dimen/album_dp_200"
+        android:src="@drawable/snakelogoic"
+        android:id="@+id/login_ivlogo"/>
+
+    <EditText
+        android:id="@+id/login_edphone"
+        android:hint="phone"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/album_dp_50"
+        android:layout_below="@id/login_ivlogo"
+        android:layout_marginTop="@dimen/album_dp_50"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/loginedback"
+        android:ems="10"
+        android:layout_marginRight="@dimen/album_dp_10"
+        android:layout_marginLeft="@dimen/album_dp_10"
+        android:inputType="phone" />
+
+    <EditText
+        android:background="@drawable/loginedback"
+android:textColorHint="@color/gray"
+        android:hint="password"
+        android:layout_below="@id/login_edphone"
+        android:layout_marginTop="@dimen/album_dp_20"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/login_edpass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/album_dp_50"
+        android:ems="10"
+        android:layout_marginRight="@dimen/album_dp_10"
+        android:layout_marginLeft="@dimen/album_dp_10"
+        android:inputType="numberPassword" />
+    <CheckBox
+        android:layout_margin="@dimen/dim_20dp"
+android:button="@drawable/checkback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تذكر كلمة المرور"
+        android:layout_below="@id/login_edpass"
+        android:id="@+id/login_chremember"
+        android:textColor="@color/black"
+        android:textSize="@dimen/album_sp_20"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+
+        android:layout_height="@dimen/album_dp_50"
+        android:text="@string/login"
+        android:layout_marginTop="@dimen/album_dp_20"
+        android:layout_below="@id/login_chremember"
+        android:id="@+id/login_loginbtn"
+        android:background="@drawable/barcolor"
+        android:layout_marginRight="@dimen/album_dp_10"
+        android:layout_marginLeft="@dimen/album_dp_10"/>
+
+
+</RelativeLayout>

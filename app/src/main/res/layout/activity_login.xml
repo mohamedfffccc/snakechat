@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+android:background="@color/white"
+    tools:context=".view.fragment.ui.auth.RegisterFragment">
+    <ImageView
+        android:id="@+id/prof_pic"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+
+        android:padding="10dp"
+        app:srcCompat="@drawable/ic_camera_alt_black_24dp" />
+
+    <EditText
+        android:layout_below="@id/prof_pic"
+        android:textSize="@dimen/dim_15sp"
+        android:textStyle="bold"
+        android:background="@drawable/loginedback"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/album_dp_50"
+        android:id="@+id/nameed"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:hint="Name"
+        android:textColorHint="@color/light_gray"
+        android:inputType="text"/>
+    <EditText
+        android:textStyle="bold"
+        android:textSize="@dimen/dim_15sp"
+        android:textColorHint="@color/light_gray"
+        android:background="@drawable/loginedback"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/album_dp_50"
+        android:id="@+id/emailed"
+        android:layout_below="@id/nameed"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:textStyle="bold"
+        android:textSize="@dimen/dim_15sp"
+        android:textColorHint="@color/light_gray"
+        android:background="@drawable/loginedback"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/album_dp_50"
+        android:id="@+id/phoneed"
+        android:layout_below="@id/emailed"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:hint="phone"
+        android:inputType="phone"/>
+    <EditText
+        android:textStyle="bold"
+        android:textSize="@dimen/dim_15sp"
+        android:textColorHint="@color/light_gray"
+        android:background="@drawable/loginedback"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/album_dp_50"
+        android:id="@+id/passed"
+        android:layout_below="@id/phoneed"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:hint="password"
+        android:inputType="numberPassword"/>
+    <RelativeLayout
+        android:background="@drawable/barcolor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/album_dp_50"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="@dimen/album_dp_30"
+                android:layout_height="@dimen/album_dp_30"
+                android:src="@drawable/ic_add_black_24dp" />
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/login"
+                android:textSize="@dimen/dim_15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/album_dp_50"
+                android:background="@drawable/barcolor"
+                android:text="@string/register"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

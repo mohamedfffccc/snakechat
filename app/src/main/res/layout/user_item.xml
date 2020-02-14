@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/editname_background" android:layout_height="@dimen/dim_40dp">
+<TextView
+    android:layout_width="wrap_content"
+
+
+    android:layout_height="wrap_content"
+    android:id="@+id/useritem_username"
+    android:textColor="@color/black"
+android:textSize="15sp"
+    android:layout_marginTop="@dimen/dim_5dp"
+    android:layout_marginLeft="@dimen/dim_20dp"
+    android:layout_alignParentLeft="true"
+    android:textStyle="bold"
+    />
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/dim_5dp"
+        android:layout_width="30dp"
+        android:layout_height="@dimen/dim_30dp"
+        android:src="@drawable/add_follower"
+        android:id="@+id/useritembtn_follow" />
+</RelativeLayout>

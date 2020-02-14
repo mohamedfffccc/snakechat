@@ -1,0 +1,2 @@
+https://newsapi.org/v2/top-headlines?country=eg&apiKey=30563e9214a34b158a1a5e0a141b4d6b
+https://newsapi.org/v2/everything?q=apple&from=2019-12-29&sortBy=popularity&apiKey=30563e9214a34b158a1a5e0a141b4d6b

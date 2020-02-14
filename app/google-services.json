@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "789936919713",
+    "firebase_url": "https://snakechat-da349.firebaseio.com",
+    "project_id": "snakechat-da349",
+    "storage_bucket": "snakechat-da349.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789936919713:android:f3cee3585586426042cce0",
+        "android_client_info": {
+          "package_name": "com.example.snakechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789936919713-hmiorh1bblbi0a95kvhtenm31vndgoln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snakechat",
+            "certificate_hash": "516bd7d74c82a3762a2aeb39999c69f2c62ce289"
+          }
+        },
+        {
+          "client_id": "789936919713-m0iav71l3h6dcofqsd3vpun8mhinf1iu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTGvY7cSEiqel4MiXh719e5NPc_Mmwm-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789936919713-m0iav71l3h6dcofqsd3vpun8mhinf1iu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
